@@ -1,0 +1,72 @@
+body {
+	background-color: white;
+	color: #000000;
+	font-family: monospace;
+	
+	  margin: auto;
+	  width: 75%;
+	  border: 3px solid blue;
+	  padding: 10px;
+	}
+}
+
+h1 {
+	background-color: white;
+	color: red;
+	text-align: center;
+	font-family: monospace;
+	padding: 20px 20px 20px 20px;
+}
+
+form {
+	padding: 20px 20px 20px 20px;
+}
+
+table {
+	border: 1px solid;
+	font-family:arial;
+}
+
+.phpstuff {
+	padding-left: 50px;
+}
+
+.input {
+	position: relative;
+	left:10px;
+}
+
+.button {
+	background-color:white;
+	color:blue;
+	border: 1px solid blue;
+	padding: 5px 5px 5px 5px;
+	transition: .3s;
+	border-radius: 5px;
+	position: left;
+	width: 200px;
+	
+}
+.button:hover {
+	color: white;
+	background-color:blue;
+}
+
+a{
+	color: blue;
+}
+
+a:hover {
+	color: white;
+	background-color:blue;
+}
+
+#secret {
+	background-color: white;
+	border: 0px solid white;
+	color: white;
+	padding: 5px 5px 5px 5px;
+	transition: .3s;
+	border-radius: 5px;
+	width: 75%;
+}
